@@ -1,7 +1,8 @@
-const rect = {
-      perimeter:(x,y)=>(2*(x+y)),
-      area: (x,y)=>(x*y)
-}
+// const rect = {
+//       perimeter:(x,y)=>(2*(x+y)),
+//       area: (x,y)=>(x*y)
+// }
+const rect = require('./rectangle')
 const solveRectangle = (l,w) =>{
       console.log('solving for the rectangle with length is: '+ l + ' and width is: ' + w);
 
