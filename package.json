@@ -1,0 +1,14 @@
+{
+  "name": "node_exemple",
+  "version": "1.0.0",
+  "description": "Simple Node Exemple",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./path/to/your/index.js"
+  },
+  "author": "Tiego Ouedraogo",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
